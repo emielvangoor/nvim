@@ -13,3 +13,5 @@ vim.o.expandtab = false -- Pressing the TAB key will insert spaces instead of a 
 vim.o.softtabstop = 2 -- Number of spaces inserted instead of a TAB character
 vim.o.shiftwidth = 2 -- Number of spaces inserted when indenting
 vim.opt.listchars = "tab:. " --  Show dots as tab chars
+
+vim.o.so = 999
