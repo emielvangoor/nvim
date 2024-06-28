@@ -5,7 +5,7 @@
 vim.keymap.set("n", "<Leader>fs", ":w<CR>", { silent = true, desc = "Save file" })
 
 -- Map down arrow to }
-vim.api.nvim_set_keymap("n", "<Down>", "}", { noremap = true })
+vim.api.nvim_set_keymap("n", "<Down>", "10j", { noremap = true })
 
 -- Map up arrow to {
-vim.api.nvim_set_keymap("n", "<Up>", "{", { noremap = true })
+vim.api.nvim_set_keymap("n", "<Up>", "10k", { noremap = true })
