@@ -2,6 +2,7 @@ return {
   "echasnovski/mini.surround",
   optional = true,
   opts = {
+    highlight_duration = 2000,
     mappings = {
       add = "gza", -- Add surrounding in Normal and Visual modes
       delete = "gzd", -- Delete surrounding

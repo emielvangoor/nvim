@@ -1,35 +1,19 @@
 return {
-  -- { "datsfilipe/vesper.nvim" },
-  -- {
-  --   "catppuccin/nvim",
-  --   name = "catppuccin",
-  --   priority = 1000,
-  --   config = function()
-  --     require("catppuccin").setup({
-  --       flavour = "mocha",
-  --       background = { -- :h background
-  --         light = "latte",
-  --         dark = "mocha",
-  --       },
-  --     })
-  --   end,
-  -- },
   {
-    "folke/tokyonight.nvim",
-    lazy = false,
+    "rose-pine/neovim",
+    name = "rose-pine",
     priority = 1000,
-    opts = {
-      transparent = true,
-      styles = {
-        sidebars = "transparent",
-        floats = "transparent",
-      },
-    },
   },
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "catppuccin",
+      -- colorscheme = "blossom_light",
+      -- colorscheme = "chadracula_evondev",
+
+      -- colorscheme = "aquarium",
+      colorscheme = "rose-pine",
+      -- colorscheme = "monochrome",
+      -- colorscheme = "catppuccin",
       -- colorscheme = "tokyonight-night",
       -- colorscheme = "vesper",
       -- colorscheme = "cyberdream",
